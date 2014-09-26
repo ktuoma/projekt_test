@@ -1,0 +1,324 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Internet Publicering 2</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="Logotyp Internet Publicering 2"></a>
+        </header>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="om.html">Om</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <article>            
+            <h1>Det mänskliga systemet</h1>
+            <p>Denna text är tagen från källa</p>
+            <hr>
+            <section>
+                <h2>Inledning</h2>
+            <aside>
+                <p><del>Utveckla wikin: Detta kapitel behöver uppdateras.</del></p>
+            </aside>
+
+                <p>Kunskaper om hur det mänskliga systemet fungerar är en nödvändig grund för att genomföra expertutvärdering och interaktionsdesign. Du behöver dessa kunskaper för att fatta och motivera bra designbeslut, samt för att formulera nya lösningsförslag.</p>
+
+                <p>Symbolen <dfn>XXX</dfn> används i detta appendix för att markera tumregler. De beskriver hur kunskap om det mänskliga systemets inbyggda funktioner bör påverka utformningen av användargränssnitt i interaktiva produkter.</p>
+
+                <p>Det som presenteras här är baskunskaper om hur människans syn, minne och tanke fungerar och riktlinjer för hur detta bör påverka datorns gränssnitt. För att utforma lösningar med hög användbarhet behövs kunskaper <a href="http://anvandbarhet.se/bok:vidare_laesning">utöver det som presenteras i denna bok</a>.</p>
+            </section>
+            <hr>
+            <section>
+                <h2>Syn</h2>
+
+                <p>Att vi kan se beror på att ögat tar emot ett flöde av impulser. Dessa impulser byggs av hjärnan upp till en tredimensionell bild. Att se eller <dfn>varsebli</dfn><sup id="fotnot_01b"><a href="#fotnot_01">1</a></sup> något betyder oftast att vi stannat inför en möjlighet att tolka informationen från näthinnan. Att se med ögonen är alltså resultatet av en komplex bearbetning i hjärnan, delvis styrd av erfarenhet och intresse.
+                Förutsättningen för att vi ska kunna se är att en viss mängd ljus belyser föremålet, eller att föremålet utstrålar ljus.</p>
+
+                <p class="subhead">Allt registreras</p>
+
+                <p>Vår syn registrerar information automatiskt och mycket snabbt. Vår syn tar in all information på en bild och hjärnan rensar sedan bort sådant som bedöms som onödigt. Denna process kostar självfallet både tid och kraft.</p>
+
+                <p><mark>Ta bort onödiga upprepningar, onödig information och element som ej tillför någon information.</mark> Ju färre element jag i onödan måste tolka och bedöma, desto bättre.</p>
+
+                <p>Utforma ikoner så att de byggs upp av få och väsentliga detaljer. <mark>Syftet med ikoner är att skapa omedelbar igenkänning. De detaljer som är informationsbärande ska behållas och förstärkas, medan de detaljer som inte är informationsbärande kan (och i många fall bör) tas bort.</mark></p>
+
+                <p class="subhead">Ögat söker mönster</p>
+
+                <p>När vi tittar på en bild sveper ögat på ett oregelbundet sätt över bilden och försöker avgöra vad som är väsentligt. Ögat förflyttar sig i medeltal fyra till fem gånger per sekund. Vi försöker snabbt, utan att vi kan styra det, finna vad som är form, vad som är bakgrund och vad som är brus.</p>
+
+                <p>Figur  A.1 Ditt öga sveper över bilden och stannar vid informationstäta delar, samtidigt som hjärnan letar efter mönster som du känner igen. Vad föreställer bilden?<sup  id="fotnot_02b"><a href="#fotnot_02">2</a></sup></p>
+
+                    <img src="images/figur_a_1.png" alt="Figur A.1" width="400" height="287">
+
+                <p class="subhead">Gruppering</p>
+
+                <p>Saker som är placerade nära varandra uppfattas som en grupp, även om de är olika. Om du frågar någon vad bilden här nedanför innehåller svarar denna med stor sannolikhet ”tre grupper med ringar och fyrkanter”. <em>Närhet</em> skapar grupper.</p>
+
+                <p>Figur A.2 Objekt som är nära uppfattas som en grupp.</p>
+
+                    <img src="images/figur_a_2.png" alt="Figur A.2" width="400" height="121">
+
+                <p>Om vi inte kan uppfatta naturliga grupper med tomrum mellan, så särskiljer människan objekten genom deras form. Om du frågar någon vad bilden nedan innehåller så säger hon med hög sannolikhet ”Ringar och fyrkanter”. <em>Likhet</em> skapar grupper.</p>
+
+                <p>Figur A.3 Objekt som är lika i form uppfattas som en grupp.</p>
+
+                    <img src="images/figur_a_3.png" alt="Figur A.3" width="400" height="259">
+
+                <p>Även om saker ordnas i grupper med visst avstånd mellan så finns det sätt att påvisa olika objekts samhörighet genom exempelvis fyllnad. Om du frågar någon vad bilden nedan innehåller blir svaret sannolikt ”Tre grupper med ringar och fyrkanter, två är fyllda”.</p>
+
+                <p>Figur A.4 Fyllnad kan användas för att gruppera olika objekt som är åtskilda.</p>
+
+                    <img src="images/figur_a_4.png" alt="Tre grupper med ringar och fyrkanter, två former båda i separata grupper är fyllda med en blå färg." width="400" height="121">
+
+                <p>Gruppering är en mycket kraftfull teknik när det gäller att skapa samhörighet mellan fält. Fält som placeras nära tolkas av människan som logiskt eller funktionellt relaterade. Om detta görs på ett genomtänkt sätt minskas den ansträngning som behövs för att tolka bilden. I exemplet nedan visas två designförslag; ett ogrupperat och ett grupperat.</p>
+
+                <p>Figur A.5 Hjälp människan att tolka bilden genom att presentera grupper med relaterad information och relaterade funktioner.</p>
+
+                    <img src="images/figur_a_5.png" alt="Figur A.5" width="600" height="212">
+
+                <p>Skapa grupper genom att använda mellanrum. Om det är platsbrist så kan ramar användas. Dock är detta ofta en dålig idé då ramar är extra information på skärmen, vilken användaren automatiskt registrerar och selekterar bort.</p>
+
+                <p><mark>Gruppera saker som hör ihop.</mark> Skapa grupper med de fält, knappar, text etc. som hör ihop betydelsemässigt. Placera fält som innehåller liknande information nära varandra. Placera knappar som utför liknande funktioner nära varann.</p>
+
+                <p><mark>Om färgkodning används: var konsekvent, använd samma färg till samma sak på alla ställen.</mark></p>
+
+                <p class="subhead">Läsning på skärm</p>
+
+                <p>Avsökning och läsning underlättas om vi underlättar för ögat att finna linjer som ögat kan följa.</p>
+
+                <p>Placera inmatnings- och upplysningsfält i rak vänsterkant.</p>
+
+                <p>Ögat registrerar även små skillnader i avstånd. Använd samma avstånd mellan samma typer av objekt och samma avstånd för att skapa grupper. <mark>Använd alltså inte olika avstånd mellan knappar i samma grupp.</mark></p>
+
+                <p>Vid läsning söker ögat <dfn>ordbilder</dfn>. Dessa skapas bäst genom att både versaler (stora bokstäver) och gemener (små bokstäver) används. Läsning på papper underlättas av så kallade <dfn>seriffer</dfn> (små linjer som förstärker bokstavens form, exempelvis den lilla foten längst ned på detta ”r”). På grund av att bokstäver på skärmen byggs upp av relativt få punkter är det dock bra att använda typsnitt utan seriffer (så kallad <dfn>sans seriff<dfn>) på skärm.</p>      
+
+                <p>Figur A.6 Det är tämligen svårt att läsa raden, eftersom vissa bokstäver är förvillande lika andra som exempelvis h och n.</p>
+
+                    <img src="images/figur_a_6.png" alt="Figur A.6" width="600" height="29">
+
+                <p>Figur A.7 Det är då betydligt lättare att läsa den övre halvan av texten. Orsaken är att där finns den typ av information som vi använder oss av då vi skapar ordbilder.</p>
+
+                    <img src="images/figur_a_7.png" alt="Figur A.7" width="600" height="32">
+
+                <p>Figur A.8 Text som innehåller endast versaler är svårare att läsa än text där både versaler och gemener används, helt enkelt därför att versaler är lika stora/höga och skapar ingen ordbild.</p>
+
+                    <img src="images/figur_a_8.png" alt="Figur A.8" width="600" height="24">
+                    
+                <p>Använd både versaler och gemener.</p>
+
+                <p>Läsning på skärm är annorlunda än läsning på papper. Det går normalt 20–30% långsammare att läsa text på skärm än på papper<sup id="fotnot_03b"><a href="#fotnot_03">3</a></sup>. Vi läser inte heller på samma sätt, utan skumläser först för att skapa oss en uppfattning om innehållet och vad som kan vara relevant. Det finns en hög risk att sådant som bedömts som oväsentligt vid första skumläsningen inte beaktas senare.</p>
+
+                <p><mark>Utforma text för skumläsning. Skapa tydliga och korta avsnitt, placera ord som ger rätt associationer i styckerubrikerna och undvik långa meningar med bisatser.</mark> Skumläsning underlättas om sidan har hög informationstäthet.</p>
+
+                <p><mark>Utforma länkar för skumläsning. Gör det tydligt vad som är länkar. Använd ord som ger rätt associationer i länken. Ge fler ord, eller en hel mening som beskriver länken. Använd <dfn>redundanta länkar<dfn> (flera länkar som leder till samma innehåll).</mark></p>
+
+                <figure>
+                <p class="subhead">Exempel</p>
+
+                <p>"Kapitel 1 hittar du här" är en betydligt bättre länk än "Klicka här för att komma till första kapitlet".</p>
+
+                <p>Använd stor typsnittsstorlek.<sup  id="fotnot_04b"><a href="#fotnot_04">4</a></sup> Undvik kursiv text.</p>
+                </figure>
+
+                <p class="subhead">Signaleffekt</p>
+
+                <p><mark>Ljud, rörelse, storlek, form och färg har stark signaleffekt. Blicken dras till det som rör sig, det största elementet och färglagda texter och bilder.</mark> Det är mycket svårt att läsa text på en sida om det finns rörliga element.</p>
+
+                <p><mark>Använd ljud, rörelse och grafik främst till att förstärka budskapet.</mark> Grafiska element kan också med fördel användas för att organisera text och länkar.</p>
+
+                <p><mark>Färg har mycket stark signaleffekt och bör därför användas med försiktighet.</mark> Undvik starka färger och kombinationer av blå-röd, grön-röd, blått på svart, blått på grönt, gult på vitt eller vice versa.</p>
+
+                <p><mark>Animationer kan med fördel användas för att förklara en process, men gör det då möjligt för användaren att starta och stoppa animeringen.</mark></p>
+            </section>
+            <hr>
+            <section>
+                <h2>Minne</h2>
+
+                <p>Det finns mycket kunskap om hur människan minns, det som beskrivs här är schematiskt och övergripande. Mänskligt tänkande kan beskrivas som mer eller mindre medvetna processer i minnet.</p>
+
+                <p>Figur A.9 Man brukar tala om <mark>tre typer av minnen; sensoriskt register, korttidsminne och långtidsminne.</mark> Innan du får en medveten upplevelse i korttidsminnet ställs de mot förkunskaper i långtidsminnet.</p>
+
+                    <img src="images/figur_a_9.png" alt="Figur A.9" width="400" height="277">
+
+                <p>Man brukar tala om tre olika typer av minnen;</p>
+                <ul>
+                    <li><dfn>Sensoriskt register</dfn> som tar emot information från våra sinnen (syn, hörsel, känsel, lukt och smak).</li>
+                    <li><dfn>Korttidsminnet</dfn><sup  id="fotnot_05b"><a href="#fotnot_05">5</a></sup> som tar emot utvalda sinnesförnimmelser och som kan liknas vid det vi kallar ”medvetandet”.</li>
+                    <li><dfn>Långtidsminnet</dfn> som lagrar viss utvald information och som i efterhand kan återkalla och vidarebearbeta intryck. Annan information sållas bort.</li>
+                </ul>
+                <p>Sensoriska registret fångar exakt vad som hänt utan att tolka det. Informationen upplöses här på mindre än en sekund.</p>
+                <p>I nästa steg registreras informationen i förhållande till förkunskaper som finns i långtidsminnet och når sedan korttidsminnet. Först då får jag en medveten upplevelse.</p>
+
+                <p class="subhead">Korttidsminnet</p>
+
+                <p>Korttidsminnet kan inte hantera hur stora informationsmängder som helst, det är starkt begränsat. Korttidsminnet kan endast hantera ett mindre antal informationsenheter, eller ”klumpar” av information samtidigt.<sup  id="fotnot_06b"><a href="#fotnot_06">6</a></sup> Som tur är så är en ”klump” ingen fast enhet.</p>            
+
+                <p>Figur A.10 Memorera raden i 10 sekunder. Täck över den och skriv ned innehållet på ett papper. Kontrollera sedan hur många rätt du har.</p>
+
+                    <img src="images/figur_a_10.png" alt="Figur A.10" width="400" height="47">
+
+                <p>Figur A.11 Gör på samma sätt här.</p>
+
+                    <img src="images/figur_a_11.png" alt="Figur A.11" width="400" height="48">
+
+                <p>Båda raderna innehåller 10 bokstäver, trots det uplever de flesta i vår västerländska kultur att den nedre är mycket enklare att minnas än den övre. Anledningen är at den övre saknar mening – du måste komma ihåg 10 bokstäver – och den nedre raden består av tre ord med betydelse. Det är lättare att minnas 3 betydelsefulla saker än 10 som saknar mening.</p>
+
+                <p>Ett problem med informationen i korttidsminnet är att den inte är stabil i sig själv. För att bevara informationen krävs att den upprepas hela tiden, annars bleknar den bort efter 15–30 sekunder.</p>  
+
+                <p>Figur A.12 Memorera koden i 10 sekunder. Täck sedan över den.</p>
+
+                    <img src="images/figur_a_12.png" alt="Figur A.12" width="200" height="55">
+                    
+                <p>Figur A.13 Lös ekvationen!</p>
+
+                    <img src="images/figur_a_13.png" alt="Figur A.13" width="250" height="40">
+
+                <p>Vilken var koden du nyss memorerade? De flesta har stora svårigheter att återge denna eftersom korttidsminnet blev upptaget med att räkna ut ekvationen.</p>
+
+                <p>All information som krävs för att genomföra uppgiften ska vara synlig på sidan / i fönstret.</p>
+
+                <p>Använd få bildväxlingar eller skapa tydliga kopplingar mellan dem. Användaren tappar lätt bort sig vid bildväxlingar och ställer sig då frågor som ”var är jag?”, ”hur kom jag hit?”, ”varför gick jag hit?”. Däremot upplever användaren att hon har kontroll om hon har (visuell) översikt och (mentalt) grepp på helheten.</p>
+
+                <p class="subhead">Det är lättare att känna igen…</p>
+
+                <p>Det är betydligt lättare för människan att känna igen än att komma ihåg information. Om du exempelvis ska köpa en av August Strindbergs böcker så är det betydligt enklare om någon (eller en sökmotor) serverar en lista av alla hans böcker än om du måste leta i minnet för att komma ihåg titeln.</p>
+
+                <p>För att minnas saker använder långtidsminnet sig av associationer. Detta utnyttjas exempelvis i ikoner, som byggs upp av kännetecken för en viss företeelse som delas av många människor.</p>
+
+                <p><mark>Presentera valbara alternativ i en lista istället för att presentera ett tomt inmatningsfält.</mark></p>
+
+                <p>Genom att använda både genvägar, menytexter och ikoner för en och samma funktion kan vi underlätta förståelsen för användaren.</p>
+            </section>
+            <hr>
+            <section>
+                <h2>Tanke</h2>
+
+                <p>Vårt tänkande<sup id="fotnot_07b"><a href="#fotnot_07">7</a></sup> sker till viss del medvetet, men merparten sker icke-medvetet. I den medvetna delen är vi bra på att bedöma information, att analysera. Här hanteras text och siffror. Ett problem är dock att vi hanterar information sekventiellt och att vi inte kan hantera särskilt mycket information i taget. I den icke-medvetna delen hanteras däremot mycket stora informationsmängder och detta sker på ett automatiskt och samtidigt sätt. Vi är oerhört effektiva på att bedöma helheter och att finna mönster.</p>
+
+                <p>Människan bedömer element i gränssnittet efter hur de troligtvis fungerar, baserat på tidigare erfarenheter, värderingar och kulturella aspekter. Det här går blixtsnabbt och utan att vi kan styra det. Just att vi utgår från våra erfarenheter när vi ser något nytt innebär att det inte finns några intuitiva gränssnitt. Kunskap om hur exempelvis musen fungerar, hur en rullist fungerar och att det finns kortkommandon är förvärvade kunskaper och inte alls självklara för den ovane användaren. Däremot finns gränssnitt som på ett elegant sätt tar tillvara redan inhämtad kunskap. God interaktionsdesign tar vara på användarnas befintliga kunskaper.</p>
+
+                <p>Hjärnan prioriterar våra intryck</p>
+
+                <p>Även om hjärnan kan hantera ofantligt stora datamängder kan inte all medveten bearbetning ske samtidigt. Därför sker prioritering.</p>
+
+                <p>Figur A.14 Säg högt och i ganska snabb takt vilken färg texten på varje rad har.</p>
+
+                    <img src="images/figur_a_14.png" alt="Figur A.14" width="100" height="326">
+
+                <p>Figur A.15 Gör på samma sätt här: säg högt och i ganska snabb takt vilken färg texten på varje rad har.</p>
+
+                    <img src="images/figur_a_15.png" alt="Figur A.15" width="100" height="357">
+
+                <p>De flesta människor misslyckas med att säga ordets färg istället för själva ordet i den sista kolumnen. Anledningen är att hjärnan registrerar ordets betydelse blixtsnabbt och har sedan svårt att bortse från detta. Hjärnan tenderar att prioritera text över färg.<sup id="fotnot_08b"><a href="#fotnot_08">8</a></sup></p>
+
+                <p class="subhead">Automatisering</p>
+
+                <p>Den mänskliga hjärnan försöker hela tiden (utan att du vet om det) att hitta mönster så att processer automatiseras, vilket i sin tur medför att belastningen minskar.</p>
+
+                <p>Skapa enhetliga gränssnitt!</p>
+                <ul>
+                    <li>Använd samma ord för samma sak överallt.</li>
+                    <li>Använd samma färg till samma sak överallt.</li>
+                    <li>Använd samma beteende för liknande funktioner överallt.</li>
+                    <li>Placera knappar med samma funktion på samma ställe överallt.</li>
+                </ul>
+                <p><mark>Sortera menyval och listor på ett för användaren logiskt sätt.</mark> Sortera efter funktion eller logisk betydelse. Använd bokstavsordning om entydig meningsfull ordning saknas.</p>
+
+                <p><mark>Anpassa inmatningsfältens längd till det förväntade innehållet.</mark> I Sverige bör exempelvis inmatningsfältet för ett förnamn vara kortare än inmatningsfältet för efternamnet.</p>
+
+                <p><mark>Undvik modala dialoger</mark> (fönster som måste stängas för att användaren skall kunna komma åt resten av systemet) om du inte har behov av att styra användaren i ett visst läge. Att undvika modala dialoger är särskilt viktigt då det gäller hjälprutiner, eftersom användaren ofta behöver tillgång till hjälptext och andra funktioner samtidigt.</p>
+
+                <p>Det är mycket viktigt att <mark>utformningen av gränssnittet hjälper användaren att finna mönster</mark><sup id="fotnot_09b"><a href="#fotnot_09">9</a></sup>( för hur produkten fungerar. Ett färdigt mönster kan aldrig förmedlas eftersom det skapas i användarens hjärna. Däremot kan gränssnittet hjälpa användaren i processen att skapa mönster, framför allt genom att <mark>utformningen är överskådlig och konsekvent,</mark> men även genom andra åtgärder:</p>
+
+                <p><mark>Använd bara ord och koncept som användaren är väl förtrogen med.</mark></p>
+
+                <p><mark>Tillåt användaren att ångra sig.</mark> Om produkten uppmuntrar utforskande så lär sig användaren snabbare hur systemet fungerar.</p>
+
+                <p class="subhead">Återkoppling</p>
+
+                <p>För att användaren överhuvudtaget ska kunna förstå produktens uppbyggnad och beteende krävs relevant återkoppling på användarens handlingar. Återkoppling är också ett viktigt inslag för att skapa mönster.</p>
+
+                <p>Tala om för användaren när systemet arbetar.</p>
+
+                <p>Tydliggör vilket resultat användaren nådde.</p>
+
+                <p>Formulera meddelanden så att användaren förstår dess innebörd och kan agera utifrån budskapet:</p>
+                <ul>
+                    <li>Tala om vad som hänt. Skriv det viktiga ordet så tidigt som möjligt i meddelandetexten.</li>
+                    <li>Tala eventuellt om varför det har hänt.</li>
+                    <li>Tala om vad användaren kan göra för att åtgärda problemet.</li>
+                    <li>Skriv i positiv form. Undvik orden ”inte” och ”ej”.</li>
+                </ul>
+                <p>När vi har hittat ett mönster kan vi också återskapa detta, vi har ”lärt oss”. Riktigt kraftfulla mönster innebär också att användaren kan förutsäga vad som borde hända. Interaktiva produkter som används sällan måste alltså snabbt förmedla ett mönster som dessutom är enkelt att komma ihåg.</p> 
+
+                <figure>
+                <p class="subhead">Ett litet exempel från verkligheten</p>
+
+                <p>Exemplet är visserligen snart 10 år gammalt, men i många av dagens produkter finns likartade problem. Fönstret är en del i en produkt för att administrera kommunala tjänster. Användaren kommer till detta fönster efter att först valt en individ (medborgare i kommunen). I detta fönster visas individens alla pågående och avslutade kommunala ärenden. När ett ärende är valt (i listan) visas detaljer (längst ned).</p>
+
+                <p>Övning: Titta på fönstret nedan och fundera på eventuella brister du ser, mot bakgrund av den kunskap om människans syn, minne och tanke som du nu har.</p>
+
+                <p>Figur A.16 Ett fönster som är dåligt anpassat till det mänskliga systemet.</p>
+
+                    <img src="images/figur_a_16.png" alt="Figur A.16" width="350" height="482">
+
+                <p>Några av bristerna är:</p>
+                
+                <ul>
+                    <li>Hjälpinformation ligger fast i bilden och är efter några gångers användande onödig information. All text uppfattas av ögat och måste aktivt väljas bort (tanke). Dessutom är den färglagd och placerad längst upp vilket gör att den pockar på uppmärksamhet (syn). Som text betraktad är den också onödigt ”pratigt” formulerad.</li>
+                    <li>Knapparna är placerade i olika ordningsföljder, vilket hindrar användaren från att automatisera (tanke).</li>
+                    <li>Ledtexterna är färgsatta medan innehållet är nedtonat, grått. Detta gör att det är svårare att hitta informationen (syn). Stor visuell tyngd vid ledtexter, liten tyngd på innehåll ger att ögat snabbare uppmärksammar ledtexterna. Dessutom brukar grå text eller svart text på grå bakgrund betyda att innehållet är inaktivt (tanke).</li>
+                    <li>Ramar används för gruppering. Samma effekt åstadkoms genom att använda mellanrum. (Ögat uppfattar grupper lika snabbt genom avstånd som med ramar).</li>
+                </ul>
+                </figure>
+            </section>
+            <hr>
+            <section>
+                <h2>Sammanfattning</h2>
+
+                <p>Syn, tanke och minne fungerar på ett likartat sätt hos oss människor. Baserat på kunskap om dessa gemensamma mänskliga funktioner har riktlinjer formulerats. Riktlinjerna förklarar på vilket sätt dessa mänskliga egenskaper bör påverka gränssnittets utformning. Dessa riktlinjer är en god startpunkt när du vill utvärdera redan gjorda gränssnitt, och en bas att stå på när du skall utforma nya.</p>
+            </section>
+            <hr>
+            <section>
+                <h2>Noter</h2>
+                
+                <p><sup id="fotnot_01"><a href="#fotnot_01b">1</a></sup>
+                <dfn>Varseblivning</dfn> kallas även perception.</p>
+                
+                <p><sup id="fotnot_02"><a href="#fotnot_02b">2</a></sup>
+                Bilden föreställer en kossa, sedd från sidan. En känd bild som exemplifierar detta fenomen är "Spotty dog", en dalmantin i höstlöv. Vi brukar skämtsamt kalla symtomen att sprida ut fält på en dialog/en sida för just ”<dfn>dalmantineffekten</dfn>”. "Spotty dog" och fler exempel hittar du i Thompson,P., ”Visual Perception: an Intelligent System with Limited Bandwith”, i Monk, A., ed <cite>Fundamentals of Human-Computer Interaction</cite>, Academic Press, 1986.</p>
+                
+                <p><sup id="fotnot_03"><a href="#fotnot_03b">3</a></sup>
+                Mills, C.B. och Weldon, L.J., <cite>Reading text from computer screens</cite>, ACM Computing Surveys, 1987 nr 4.</p>
+                
+                <p><sup id="fotnot_04"><a href="fotnot_04b">4</a></sup>
+                Se sammanställning av Human Factors International, 
+                <a href="http://www.humanfactors.com/library/feb02.asp">http://www.humanfactors.com/library/feb02.asp</a>.</p>
+                
+                <p><sup id="fotnot_05"><a href="fotnot_05b">5</a></sup> 
+                I dagligt tal ”närminnet”.</p>
+                
+                <p><sup id="fotnot_06"><a href="fotnot_05b">6</a></sup> 
+                Begreppet <dfn>klump</dfn>, eller ”<dfn>chunk</dfn>”, myntades av George A. Miller 1956. "Se The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information<” i <cite>The Psychological Review</cite>, vol. 63, pp. 81–97, 1956.</p>
+                
+                <p><sup id="fotnot_07"><a href="fotnot_07b">7</a></sup>
+                Ett annat begrepp för tanke är <dfn>kognition<dfn>.</p>
+                
+                <p><sup id="fotnot_08"><a href="fotnot_08b">8</a></sup>
+                Detta kallas för Stroop-effekten.</p>
+                
+                <p><sup id="fotnot_09"><a href="fotnot_09b">9</a></sup>
+                Den modell av produkten som byggs upp i användarens huvud brukar kallas <dfn>mental modell</dfn>.</p>
+            </section>
+        </article>
+        <hr>
+        <footer>
+            <small>&copy; Copyright 2014 Företag AB</small>
+        </footer>
+    </body>
+</html>
